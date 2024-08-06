@@ -1,0 +1,21 @@
+.UserForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.UserForm input {
+  padding: 8px;
+  margin-bottom: 5px;
+}
+
+.UserForm button:disabled {
+  background-color: #6c757d;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+}
